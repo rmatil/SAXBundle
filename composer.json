@@ -1,4 +1,5 @@
 {
+    "name": "rmatil/saxbundle",
     "description": "Bundle around the SAX library",
     "type": "symfony-bundle",
     "keywords": ["sax", "suffix tree", "symbolic aggregate approximation"],
