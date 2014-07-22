@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <parameters>
+        <parameter key="raisenow_sax.sax_factory.class">RaiseNow\SaxBundle\SaxFactory</parameter>
+    </parameters>
+
+    <services>
+        <service id="sax.factory" class="%raisenow_sax.sax_factory.class%" public="true">
+             <argument type="string">%raisenow_sax.default_alphabet_size%</argument>
+        </service>
+    </services>
+</container>

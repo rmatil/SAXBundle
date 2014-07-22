@@ -1,0 +1,17 @@
+{
+    "description": "Bundle around the SAX library",
+    "type": "symfony-bundle",
+    "keywords": ["sax", "suffix tree", "symbolic aggregate approximation"],
+    "homepage": "https://github.com/rmatil/SAXBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raphael Matile",
+            "email": "raphael.matile@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "rmatil/sax": "dev-master"
+    }
+}
