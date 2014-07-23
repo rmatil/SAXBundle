@@ -7,7 +7,7 @@ Symfony Bundle for the [SAX](https://github.com/rmatil/SAX) library
 ### Installation
 
 Using composer:   
-``` $ php composer.phar require "rmatil/saxbundle":"dev-master" ```
+``` $ php composer.phar require "rmatil/sax-bundle":"dev-master" ```
 
 Include bundle in ```app/AppKernel.php```:  
 ```
