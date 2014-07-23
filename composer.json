@@ -14,5 +14,8 @@
     "require": {
         "php": ">=5.3.2",
         "rmatil/sax": "dev-master"
+    },
+    "autoload": {
+        "psr-4": { "RaiseNow\\SaxBundle\\": "" }
     }
 }
