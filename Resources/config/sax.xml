@@ -9,7 +9,7 @@
     </parameters>
 
     <services>
-        <service id="raisenow_sax.sax.factory" class="%raisenow_sax.sax_factory.class%" public="true">
+        <service id="raisenow_sax.sax_factory" class="%raisenow_sax.sax_factory.class%" public="true">
              <argument type="string">%raisenow_sax.default_alphabet_size%</argument>
         </service>
     </services>
